@@ -1,0 +1,121 @@
+﻿/* 
+ *author:x.king
+ *date:2015/03/03
+ */
+/* 养老中国梦-新闻内容 */
+.news-cont-bg{
+	padding:4em 0;
+}
+.news-origin{
+	color:#666;
+}
+.news-origin a{
+	display:inline-block;
+}
+.news-origin .news-part{
+	color:#6A52B2;
+}
+.news-origin .assist-color{
+	color:#C82525;
+}
+.news-origin .wechat,
+.news-origin .sina{
+	width: 22px;
+	height: 17px;
+	background: url(https://dn-vcan.qbox.me/static/images/icon/dream-share-i.png);
+	background-position: 0 -1px;
+	vertical-align: -2px;
+	margin-right: .3em;
+}
+.news-origin .wechat{
+	background-position: -23px -1px;
+}
+
+.news-content-s{
+	border-width:1px;
+	border-style:solid;
+	border-color:#333 #fff #333 #fff;
+	padding:1em 0;
+	margin:.5em 0;
+}
+.news-cont .news-cont-title{
+	margin-bottom:1em;
+}
+.news-cont-title h1{
+	font-size:28px;
+	color:#444;
+}
+.news-content-s > div{
+	padding:.4em 0;
+}
+.news-content-s p{
+	line-height:1.2em;
+}
+.news-content-s img{
+	margin:.5em 0;
+	border-radius:.3rem;
+}
+.content-text p{
+	font-size:.9em;
+	line-height:1.4em;
+	text-indent:2em;
+	margin:.4em;
+}
+.content-img{
+	text-align:center;
+	font-size:.8em;
+	color:#636363;
+}
+.content-img p{
+	margin-top:.5em;
+}
+.content-img img{
+	max-width:100%;
+	border-radius:.3rem;
+}
+.news-other-list li{
+	margin:.3em 0;
+}
+.news-other-list li span{
+	color:#999;
+}
+.news-other-list li a:hover{
+	color:#B51F55;
+}
+
+.right-nav-back li{
+	margin:.3em;
+}
+.right-nav-back li:hover a{
+	color:#6A52B2;
+}
+.right-nav-back li i{
+	display:inline-block;
+	width: 0;
+    height: 0;
+	margin-right:.7em;
+}
+.right-nav-back li .get-back{
+    border-top: 6px solid transparent;
+    border-right: 11px solid #b5b5b5;
+    border-bottom: 6px solid transparent;
+}
+.right-nav-back li:hover .get-back{
+	border-right-color:#6A52B2;
+}
+.right-nav-back li .page-up{
+    border-left: 6px solid transparent;
+    border-bottom: 11px solid #b5b5b5;
+    border-right: 6px solid transparent;
+}
+.right-nav-back li:hover .page-up{
+	border-bottom-color:#6A52B2;
+}
+.right-nav-back li .page-next{
+    border-right: 6px solid transparent;
+    border-top: 11px solid #b5b5b5;
+    border-left: 6px solid transparent;
+}
+.right-nav-back li:hover .page-next{
+	border-top-color:#6A52B2;
+}

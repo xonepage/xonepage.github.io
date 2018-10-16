@@ -1,0 +1,90 @@
+﻿/* 
+ *author:x.king
+ *date:2015/03/05
+ */
+/* 养老中国梦-下载专区 */
+.news-down-bg{
+	padding:2em 0;
+}
+.news-down-cont{
+	margin:3em auto;
+}
+.down-title h1{
+	color:#251945;
+	font-size:30px;
+}
+.media-down .media-left-list,
+.media-down .down-ebooks,
+.news-down-cont .down-ebooks{
+	padding-top:7em;
+}
+.down-ebooks .ebooks-part{
+	float:left;
+	width:20%;
+}
+.down-text-right a,
+.ebooks-part a{
+	vertical-align:bottom;
+	white-space:nowrap;
+	font-size:12px;
+	padding:.2em .4em;
+	/* background:#E6E6E6; */
+	border-radius:.3rem;
+	color:#D139C1;
+	margin-left:.2em;
+	background:linear-gradient(to top, #ccc,#FCFCFC);
+}
+.down-part-video .down-ebooks a:hover,
+.down-part-text .down-text-right a:hover,
+.down-part-img .down-ebooks a:hover,
+.ebooks-part a:hover{
+	color:#fff;
+	background:linear-gradient(to top, #999,#eee);
+	background:-webkit-linear-gradient(to top, #999,#eee);
+	background:-moz-linear-gradient(to top, #999,#eee);
+	background:-ms-linear-gradient(to top, #999,#eee);
+	background:-o-linear-gradient(to top, #999,#eee);
+}
+.ebooks-part h2{
+	display:block;
+	height:2em;
+	line-height:2em;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	width:100%;
+}
+.media-down{
+	margin:3em auto;
+}
+.media-down .down-title{
+	margin-top:2em;
+}
+.down-part-img .down-ebooks a{
+	color:#EB3180;
+}
+.down-part-text .down-text-right a{
+	color:#0095CA;
+}
+.down-part-video .down-ebooks a{
+	color:#243DB7;
+}
+.down-part-text .down-text-left{
+	float:left;
+}
+.down-part-text .down-text-right{
+	float:right;
+}
+.down-text-left p{
+	text-indent:.5em;
+	font-size:.9em;
+}
+.media-left-list li:first-child .down-text-left a{
+	color:#D84343;
+}
+.down-text-left a{
+	text-indent:10px;
+}
+.down-text-left a:hover{
+	color:#D84343;
+}

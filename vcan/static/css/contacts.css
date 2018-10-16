@@ -1,0 +1,112 @@
+﻿/* 
+ *author:x.king
+ *date:2015/03/12
+ */
+/* 联系我们 */
+.contact-bg{
+	background:#F1F2F6;
+}
+.contact-cont .contact-part{
+	margin-bottom:3em;
+}
+.conts-title{
+	position:relative;
+	height:25px;
+	padding-top:5px;
+	margin-bottom:1em;
+}
+.conts-title p{
+	position:absolute;
+	left:2em;
+	top:0;
+	font-size:20px;
+	background:#F1F2F6;
+	padding-right:10px;
+	font-weight:bold;
+}
+.conts-title p em{
+	color:#B51F55;
+}
+.contact-map img{
+	border-radius:.3rem;
+	box-shadow:1px 1px 10px #ccc;
+}
+
+/* 法律条款 */
+.law-cont{
+	padding:2.8em 0 10em 0;
+}
+.law-cont-text{
+	margin:4.6em 0;
+}
+.law-cont-text h1{
+	font-size:24px;
+	line-height:2.2em;
+	color:#191919;
+}
+.law-cont-text p{
+	line-height:1.6em;
+	font-size:14px;
+	color:#000;
+}
+
+
+.advice-cont{
+	padding:2.8em 0;
+}
+.advice-form{
+	max-width:966px;
+	margin:2em auto;
+}
+.advice-form img{
+	display:block;
+}
+.advice-form .advice-form-table{
+	border:1px solid #999;
+	border-width:0px 1px 0px 1px;
+}
+.advice-form-table h1{
+	font-size:18px;
+	font-weight:bold;
+	line-height:3.3em;
+	border-bottom:1px dotted #999;
+	padding-left:2em;
+}
+.advice-form-table .send-btn,
+.advice-form-table .form-textarea,
+.advice-form-table .form-way{
+	padding:1em 2em;
+}
+.advice-form-table label{
+	font-size:14px;
+}
+.advice-form-table .send-btn input{
+	padding:.3em 1em;
+	border:1px solid #999;
+}
+.advice-form-table .send-btn input:hover{
+	background:#142C4E;
+	color:#fff;
+}
+.form-way input{
+	border:1px solid #999;
+	line-height:26px;
+	padding-left:2px;
+	width:190px;
+}
+.form-textarea textarea{
+	resize: none;
+	border:1px solid #999;
+	width:900px;
+	max-width:100%;
+}
+.advice-cont em{
+	color:#AD154C;
+}
+.form-way ul{
+	margin-left:-2.2em;
+}
+.form-way li{
+	float:left;
+	margin-left:2.3em;
+}

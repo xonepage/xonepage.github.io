@@ -1,0 +1,308 @@
+﻿/* 
+ *author:x.king
+ *date:2014/01/08
+ */
+
+/* 招贤-集团简介 */
+.recruit-intro{
+	padding:4em 0;
+	background:#FCE5E5;
+}
+.recruit-intro-cont{
+	text-align:center;
+}
+.recruit-intro-cont img{
+	max-width:280px;
+	max-height:280px;
+	width:100%;
+}
+.recruit-intro-cont h1{
+	font-size:1.2em;
+	font-weight:bold;
+	margin:1em 0;
+}
+.recruit-intro-cont p{
+	color:#717071;
+	line-height:1.5em;
+}
+/* 发展历程 */
+.course{
+	position:relative;
+}
+.course-cont-title{
+	background:#FDE5E5;
+}
+.course-cont-title h1{
+	font-size:3.3em;
+}
+.po-icon{
+	position:absolute;
+}
+.po-icon em{
+	font-size:1.4em;
+	font-weight:bold;
+}
+.po-icon span{
+	font-size:1.2em;
+}
+.po-icon-img span{
+	display:block;
+	width:4px;
+	height:5.5em;
+	background:#777;
+	margin:5px auto;
+}
+.absolute-01{
+	left:355px;
+	bottom:40px
+}
+.absolute-02{
+	left:699px;
+	bottom:140px;
+}
+.absolute-03{
+	left:1092px;
+	bottom:230px;
+}
+.absolute-04{
+	left:1355px;
+	bottom:377px;
+}
+.po-icon i{
+	/* position:absolute; */
+	display:block;
+	width:2.4em;
+	height:2.4em;
+	background:url(https://dn-vcan.qbox.me/static/images/icon/po-icon-00.png);
+	background-size:cover;
+	margin:0 auto;
+	cursor:pointer;
+}
+.po-icon .on{
+	background:url(https://dn-vcan.qbox.me/static/images/icon/po-icon-01.png);
+	background-size:cover;
+}
+.po-icon-img h1{
+	font-size:1.4em;
+	color:#333;
+	text-align:right;
+	margin-top:1.2em;
+}
+
+.content-text-bg{
+	background:#D3E3F2;
+}
+.po-content-text{
+	position:relative;
+	width:555px;
+	height:340px;
+	box-sizing:border-box;
+	background:url(https://dn-vcan.qbox.me/static/images/icon/boxy-course-bg.png);
+	background-size:cover;
+	margin:0 auto;
+	box-sizing:border-box;
+	padding:4em;
+}
+.po-content-text h1{
+	font-size:1.6em;
+	line-height:2em;
+}
+.po-content-text p{
+	line-height:1.4em;
+	font-size:1em;
+}
+.po-content-text .colse-btn{
+	position:absolute;
+	right:0;
+	top:.0;
+	width:1.4em;
+	height:1.4em;
+	text-align:center;
+	background:#848383;
+	color:#fff;
+	font-size:1.2em;
+	font-weight:bold;
+	line-height:1.15em;
+	border-radius:50%;
+	background-size:cover;
+	cursor:pointer;
+}
+.text-lists .none{
+	display:none;
+}
+/* 我们提供 */
+.supply{
+	padding:4em 0;
+	background:#D4E3F1;
+}
+/* 职位 */
+.job{
+	padding:4em 0;
+	background:#FFF0FE;
+}
+.job-tabs-list{
+	/* margin:.5em 0; */
+}
+.job-tabs-list li{
+	float:left;
+	width:33%;
+}
+.list-on li{
+	height:40px;
+}
+.job-tabs-list li a{
+	display:block;
+	max-width:220px;
+	max-height:220px;
+	background:url(https://dn-vcan.qbox.me/static/images/icon/jion-icon-01.png);
+	background-size:cover;
+	text-align:center;
+	line-height:280px;
+	font-size:1.2em;
+	margin:0 auto;
+	color:#fff;
+}
+.job-tabs-list li .icon-02{background:url(https://dn-vcan.qbox.me/static/images/icon/jion-icon-02.png);background-size:cover;}
+.job-tabs-list li .icon-03{background:url(https://dn-vcan.qbox.me/static/images/icon/jion-icon-03.png);background-size:cover;}
+.job-tabs-list li .on-01{
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(https://dn-vcan.qbox.me/static/images/icon/tabs-on-01.png);
+	background-size:cover;
+	text-align:center;
+	font-size:1.2em;
+	margin:0 auto;
+	color:#fff;
+}
+.job-tabs-list li .on-02{
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(https://dn-vcan.qbox.me/static/images/icon/tabs-on-02.png);
+	background-size:cover;
+	text-align:center;
+	font-size:1.2em;
+	margin:0 auto;
+	color:#fff;
+}
+.job-tabs-list li .on-03{
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(https://dn-vcan.qbox.me/static/images/icon/tabs-on-03.png);
+	background-size:cover;
+	text-align:center;
+	font-size:1.2em;
+	margin:0 auto;
+	color:#fff;
+}
+.job-tabs-list .lr-border{
+	border-width:0 2px;
+	border-color:#ccc;
+	border-style:solid;
+}
+.job-cont-list{
+	margin:.5em 0;
+}
+.job-cont-list li{
+	float:left;
+	width:33.33%;
+	background:#FBD7CB;
+	text-align:center;
+	height:260px;
+	transition:width .3s;
+}
+.job-cont-list ul:hover li{
+	width:25%;
+}
+.job-cont-list ul li:hover{
+	width:50%;
+	background:#F7AF97;
+	text-align:left;
+	padding:2em 4em;
+	min-height:260px;
+	height:auto;
+}
+.job-cont-list .job-list-part{
+	display:none;
+}
+.job-list-part p{
+	font-size:.9em;
+}
+.job-cont-list li h1{
+	font-size:1.8em;
+	margin-bottom:.5em;
+	padding-top:110px;
+	transition:padding-top .3s;
+	-webkit-transition:padding-top .3s;
+	-moz-transition:padding-top .3s;
+	-ms-transition:padding-top .3s;
+	-o-transition:padding-top .3s;
+}
+.job-cont-list ul li:hover h1{
+	padding-top:0px;
+}
+.job-cont-list li:nth-child(even){
+	border-width:0 1px;
+	border-color:#F7AF97;
+	border-style:solid;
+}
+
+/* --照片墙-- */
+.photo-wall{
+	background:#D5E4F2;
+}
+.photo-wall li{
+	float:left;
+	width:20%;
+}
+/* 联系HR */
+.contact-hr{
+	background:#D5E4F2;
+}
+.hr-title h1{
+	text-align:center;
+	font-size:2.2em;
+	padding:2em 0;
+	color:#333;
+}
+.contact-bd-hr h1 {
+	height: 2.4em;
+	line-height: 2.4em;
+	font-size: 1.4em;
+	color: #393939;
+}
+.tactic-map img{
+	transition:all 1s;
+	-webkit-transition:all 1s;
+	-ms-transition:all 1s;
+	-moz-transition:all 1s;
+	-o-transition:all 1s;
+}
+.supply-cont:hover img{
+	-moz-transform: translate(150px,-150px);  
+    -webkit-transform: translate(150px,-150px);  
+    -o-transform: translate(150px,-150px);  
+    -ms-transform:  translate(150px,-150px);  
+    transform: translate(150px,-150px);  
+}
+
+
+/* ------------------------新版修改 */
+.mask-container .boxy-course{
+	padding:1em 1.6em;
+	border-radius:.3rem;
+	min-height:240px;
+}
+.boxy-course h1{
+	text-align:center;
+	line-height:3em;
+	font-size:24px;
+	color:#000;
+}
+.boxy-course p{
+	font-size:1em;
+	line-height:1.8em;
+	color:#000;
+}

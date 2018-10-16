@@ -1,0 +1,226 @@
+﻿/* 
+ *author:x.king
+ *date:2014/01/27
+ */
+/* 产品服务 */
+.cost-bg{
+	background:#F3F7FA;
+}
+.cost-cont{
+	padding:4em 0;
+}
+.cost-cen{
+	max-width:500px;
+	margin:0 auto;
+	text-align:center;
+}
+.cost-cen h2{
+	font-size:2.25em;
+	color:#1EA78D;
+	margin-bottom:.3em;
+}
+.cost-cen.color-white em{
+	/* border-bottom:1px solid #fff; */
+	color:#fff;
+}
+.cost-cen em{
+	/* border-bottom:1px solid #81060B; */
+	line-height:2em;
+	padding:.2em 0;
+	height:2em;
+	color:#81060B;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.cost-lists{
+	margin:40px 0;
+}
+.cost-lists > div{
+	text-align:center;
+	margin:1em 0;
+}
+.cost-lists span{
+	display:inline-block;
+	width:168px;
+	height:168px;
+	background:url(https://dn-vcan.qbox.me/static/images/icon/cost-lists-icon.png);
+	margin:2em auto;
+}
+.cost-lists .ser-icon1{background-position:-1px -1px}
+.cost-lists .ser-icon2{background-position:-171px -1px}
+.cost-lists .ser-icon3{background-position:-340px -1px}
+.cost-btm-text{
+	padding:3em 6em;
+}
+.cost-btm-text p{
+	text-align:center;
+	color:#fff;
+}
+.cost-cen span{
+	display:inline-block;
+	width:40px;
+	height:33px;
+	background:url(https://dn-vcan.qbox.me/static/images/icon/cost-cen-sp.png);
+	margin:0 1em;
+	vertical-align:middle;
+}
+.cost-cen i{
+	display:inline-block;
+	height:2px;
+	width:45%;
+	background:#D9DCDF;
+	vertical-align:middle;
+}
+.cost-lists > div h3{
+	font-weight:bold;
+	color:#211010;
+	font-size:1.4em;
+	line-height:2em;
+}
+.cost-lists > div p{
+	font-size:.9em;
+	color:#777;
+}
+
+
+/* 服务内容 */
+.details-cont{
+	padding:4em 0;
+}
+.details-cont .service-cen{ 
+	margin-bottom:3em;
+}
+.details-lists{
+	text-align:center;
+}
+.details-gray p{
+	color:#666;
+}
+.cost-cen.details-width-01 i{
+	width:20%;
+}
+.cost-cen.details-width-02 i{
+	width:15%;
+}
+.cost-cen-text{
+	width:70%;
+	text-align:center;
+	margin:2em auto;
+	font-size:.9em;
+}
+.cost-cen-text p{
+	line-height:2em;
+}
+
+.details-part-left,
+.details-part-right,
+.details-part-center{
+	margin:5em 0;
+}
+.details-part-center .details-center-img{
+	width:50%;
+	float:left;
+}
+.details-part-right .details-part-text{
+	text-align:right;
+	font-size:1em;
+}
+.details-part-text{
+	padding-top:30px;
+}
+.details-part-text span{
+	display:inline-block;
+	width:100px;
+	height:5px;
+	background:#1DA78D;
+	margin-bottom:.5em;
+}
+
+/* 医养结合 */
+.unite-bg{
+	background:#117F6B;
+}
+.unite-cont{
+	padding:4em 0;
+}
+.unite-lists li{
+	text-align:center;
+	margin:1em 0;
+}
+.cost-cen.color-f h2{
+	color:#fff;
+}
+.cost-cen.color-f span{
+	background:url(https://dn-vcan.qbox.me/static/images/icon/cost-cen-sp-02.png);
+}
+.cost-cen.color-f i{
+	background:#b6b6b6;
+}
+.cost-cen-text.color-f p{
+	color:#fff;
+}
+.unite-cont .unite-des-img{
+	margin:2em auto;
+}
+
+/* 海南悦龄 */
+.ai60-cont{
+	padding:6em 0;
+}
+.ai60-cont .ai60-lists{
+	text-align:center;
+	margin:2em 0;
+}
+.ai60-darkred p{
+	color:#81060B;
+	font-size:1.5em;
+}
+.ai60-part-bottom{
+	text-align:center;
+	box-sizing:border-box;
+	padding:1em 1em 1.5em 1em;
+	background:#F4F4F4;
+	border-width:0px 2px 2px 2px;
+	border-style:solid;
+	border-color:#F4F4F4;
+}
+.ai60-list-part img{
+	width:100%;
+}
+.ai60-list-part{
+	transition:all .3s;
+	-webkit-transition:all .3s;
+}
+.ai60-list-part:hover .ai60-bg1{border-color:#FA654F;}
+.ai60-list-part:hover .ai60-bg1 h1{color:#FA654F;}
+.ai60-list-part:hover .ai60-bg1 a{color:#FA654F;border-color:#FA654F;}
+
+.ai60-list-part:hover .ai60-bg2{border-color:#6AAF5F;}
+.ai60-list-part:hover .ai60-bg2 h1{color:#6AAF5F;}
+.ai60-list-part:hover .ai60-bg2 a{color:#6AAF5F;border-color:#6AAF5F;}
+
+.ai60-list-part:hover .ai60-bg3{border-color:#5FADAF;}
+.ai60-list-part:hover .ai60-bg3 h1{color:#5FADAF;}
+.ai60-list-part:hover .ai60-bg3 a{color:#5FADAF;border-color:#5FADAF;}
+
+.ai60-list-part:hover .ai60-bg4{border-color:#E78B28;}
+.ai60-list-part:hover .ai60-bg4 h1{color:#E78B28;}
+.ai60-list-part:hover .ai60-bg4 a{color:#E78B28;border-color:#E78B28;}
+.ai60-part-bottom a{
+	font-size:.8em;
+	padding:.1em .4em;
+	border:2px solid #666;
+	color:#000;
+}
+.ai60-part-bottom h1{
+	color:#000;
+	line-height:1.6em;
+}
+
+
+.ai60-cont .feature-cen{
+	padding-bottom:2em;
+}
+.ai60-cont .ai60-list{
+	padding:6em 0;
+}

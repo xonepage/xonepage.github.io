@@ -1,0 +1,213 @@
+﻿/* 
+ *author:x.king
+ *date:2014/01/06
+ */
+
+/* 首页 */
+.home-layout .home-cont{
+	padding:5px 20px 30px 20px;
+}
+.home-cont .box-shadow{
+	box-shadow:1px 1px 10px #999;
+}
+.home-layout .contents-left-list{
+	float:left;
+	width:25%;
+}
+.home-layout .contents-right-casting{
+	float:left;
+	width:75%;
+}
+.home-layout .contents-left-news{
+	float:left;
+	width:25%;
+}
+.home-layout .contents-right-news{
+	float:left;
+	width:75%;
+}
+.contents-left-list li i{
+	display:block;
+	width:80px;
+	height:80px;
+	background:url(https://dn-vcan.qbox.me/static/images/icon/home-navs-icon.png);
+	margin:0 auto;
+}
+.contents-left-list .nav-icon-02 i{background-position:-80px 0;}
+.contents-left-list .nav-icon-05 i{background-position:-160px 0;}
+.contents-left-list .nav-icon-03 i{background-position:-230px 0;}
+.contents-left-list .nav-icon-06 i{background-position:-310px 0;}
+.contents-left-list .nav-icon-04 i{background-position:-400px 0;}
+.contents-left-list li{
+	float:left;
+	width:50%;
+	overflow:hidden;
+	height:142px;
+	border-color:#2C625D;
+	border-style:solid;
+	border-width:0 0 1px 1px;
+}
+.contents-left-list li span{
+	padding-top:20px;
+	display:block;
+	height:100%;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.2) inset;
+}
+.contents-left-list li .span-bottom{
+	background:#317C75;
+}
+.contents-left-list li .span-bottom p{
+	color:#333;
+}
+.contents-left-list li p{
+	text-align:center;
+	font-size:.8em;
+	color: #fff;
+}
+
+/* casting大轮播 */
+.casting-play {
+	position:relative;
+	width:100%;
+	max-width:100%;
+	height:auto;
+	overflow:hidden;
+	margin:0;
+}
+.casting-play .play-list img{
+	border:0;
+	width:100%;
+	height:423px;
+}
+.play-text {
+	position:absolute;
+	bottom:0;
+	right:0;
+	height:10px;
+	width:100px;
+	z-index:1;
+	margin-bottom:10px;
+}
+.play-text ul:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.play-text ul{
+	*zoom:1;
+}
+.play-text ul li {
+	width:20px;
+	height:10px;
+	float:left;
+	background:rgba(0,0,0,.4);
+	display:block;
+	color:#FFF;
+	text-align:center;
+	cursor:pointer;
+	margin-right:3px;
+	display:none;
+}
+.play-text .on{
+	background:rgba(49,124,117,.6);
+}
+.play-list a{
+	display:block;
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+}
+
+/* 首页-下-news */
+.contents-left-news{
+	padding:1em;
+}
+.contents-left-news .contents-left-head{
+	height:2.4em;
+	line-height:2.4em;
+	white-space:nowrap;
+}
+.news-lists li{
+	white-space:nowrap;
+	height:2em;
+	line-height:2em;
+	font-size:.8em;
+}
+.news-lists a{
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	width:60%;
+	transition-property:color padding-left;
+	transition-duration:.3s;
+	-webkit-transition-property:color padding-left;
+	-moz-transition-property:color padding-left;
+	-ms-transition-property:color padding-left;
+	-o-transition-property:color padding-left;
+	-webkit-transition-duration:.3s;
+	-moz-transition-duration:.3s;
+	-ms-transition-duration:.3s;
+	-o-transition-duration:.3s;
+}
+.news-lists a:hover{
+	padding-left:1.6em;
+	color:#B51B54;
+}
+.contents-left-head h1{
+	font-size:1.2em;
+	color:#000;
+	display:inline-block;
+	font-weight:bold;
+}
+.contents-left-head a{
+	float:right;
+	font-size:.8em;
+	color:#317C75;
+}
+.contents-left-head a:hover{
+	color:#B51B54;
+}
+.contents-left-head a:hover i{
+	border-color: transparent transparent transparent #A8194E;
+}
+.news-lists span{
+	float:right;
+	width:40%;
+	text-align:right;
+	color:#999;
+}
+
+.contents-right-news{
+	font-size:0;
+}
+.contents-right-news a{
+	display:inline-block;
+	width:50%;
+	overflow:hidden;
+}
+.contents-right-news img{
+	width:100%;
+	-webkit-transition: all ease .3s;
+	transition: all ease .3s;
+	-moz-transition: all ease .3s;
+	-ms-transition: all ease .3s;
+	-o-transition: all ease .3s;
+}
+.contents-right-news img:hover{
+	transform: scale(1.18);
+	-webkit-transform: scale(1.18);
+	-moz-transform: scale(1.18);
+	-ms-transform: scale(1.18);
+	-o-transform: scale(1.18);
+}
+.contents-left-head i{
+	display:inline-block;
+	border-color: transparent transparent transparent #317C75;
+	border-style: solid;
+	border-width: 5px 0px 5px 5px;
+	height: 0px;
+	width: 0px;
+	margin-right:.6em;
+}

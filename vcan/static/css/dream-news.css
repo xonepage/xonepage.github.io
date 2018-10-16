@@ -1,0 +1,65 @@
+﻿/* 
+ *author:x.king
+ *date:2015/03/02
+ */
+/* 养老中国梦-新闻列表 */
+.new-banner{
+	height:140px;
+	background:url(https://dn-vcan.qbox.me/static/images/dream-news-nav.jpg);
+}
+.dream-news-nav{
+	padding-top:50px;
+}
+.dream-nav-title h1{
+	font-size:2.2em;
+	color:#fff;
+	white-space:nowrap;
+}
+.news-nav a{
+	padding:.5em 1.2em;
+	background:#fff;
+	font-size:14px;
+	float:left;
+	border-left:2px solid #c4c4c4;
+	color:#666;
+}
+.news-nav .news-all{
+	border-radius:.3rem;
+	margin-right:.6em;
+	
+	border:none;
+}
+.news-nav .news-list-first{
+	border:none;
+	border-radius:.3rem  0 0 .3rem;
+}
+.news-nav .new-on{
+	background:#251A45;
+	color:#fff;
+}
+.news-nav .news-list-last{
+	border-radius:0 .3rem .3rem 0;
+}
+.dream-news-search input{
+	display:inline-block;
+	height:33px;
+	border-radius:.4rem  0 0 .4rem;
+	border:0;
+	padding-left:2px;
+	width:120px;
+	float:left;
+	background:#eee;
+}
+.dream-news-search a{
+	padding:6px;
+	display:inline-block;
+	text-align:center;
+	width:33px;
+	height:33px;
+	background:#C7C2D8;
+	border-radius:0 .4rem .4rem 0;
+}
+.dream-news-nav .news-nav,
+.dream-news-nav .dream-news-search{
+	padding-top:10px;
+}
